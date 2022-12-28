@@ -1,0 +1,90 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-size: 12px;
+    background-color: rgb(215, 250, 226);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+hr {
+    width: 200px;
+    margin: 30px 0;
+}
+
+body {
+    height: 100vh;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+
+    padding: 10px; 
+    flex-direction: column;
+    
+    width: 200px;
+    
+    background-color: bisque;
+
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+form .labels {
+    text-align: center;
+}
+
+form .inputs {
+    padding: 4px;
+    margin: 4px;
+
+    text-align: center;
+}
+
+form .btn {
+    padding: 8px;
+    margin: 10px 0;
+
+    background-color: rgb(73, 73, 206);
+
+    color: white;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: large;
+
+    border-radius: 6px;
+}
+
+form .currency {
+    font-size: 25px;
+    text-align: center;
+}
+
+.error {
+    background-color: red;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+
+    border-radius: 3px;
+
+    font-size: 15px;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
